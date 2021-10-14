@@ -47,25 +47,24 @@
             <p>Select your team mate!!!</p>
         </section>
         <section class="material d-flex flex-row">
-            <form action="#" method="post">
+            <form onsubmit="return false;">
                 <div class="field">
                     <label for="poke-id">Summoning Jutsu</label>
-                    <input type="text" name="poke-id" id="poke-id" placeholder="Enter by name / ID num"/>
+                    <input type="input" name="poke-id" id="poke-id" placeholder="Enter by name / ID num"/>
 
                 </div>
             </form>
-            <template id="tpl-hero">
-                <li class="hero">
-                    <h4 class="title">
-                        <strong class="name"></strong>
-                        <em class="alter-ego"></em>
-                    </h4>
-                    <p class="powers"></p>
-                </li>
-            </template>
-        <ol id="target"></ol>
+            <div id="img">
+                <img src="assets/pokeimg.png" alt="pokeman go">
+            </div>
+            <div id= "choosenone"> 
+                <img id= "choosenoneimg" src="" alt="pokeman go">
 
-        </section>
+            </div>
+          </section>
+          <div id="target"></div>
+
+
     </div>
 </div>
     
