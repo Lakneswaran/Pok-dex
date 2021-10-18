@@ -92,19 +92,19 @@
     
 
   
-//    var div= document.getElementsByTagName("BODY")[0]; 
-// function getRandomColor() {
-//     var letters = '0123456789ABCDEF';
-//     var color = '#';
-//     for (var i = 0; i < 6; i++ ) {
-//         color += letters[Math.floor(Math.random() * 16)];
-//     }
+   var div= document.getElementsByTagName("BODY")[0]; 
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
 
 
-//     div.style.backgroundColor=color;
-// }
+    div.style.backgroundColor=color;
+}
 
-// setInterval(getRandomColor,2000);
+setInterval(getRandomColor,5000);
   
    
 })()
